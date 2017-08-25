@@ -34,9 +34,12 @@ get_header(); ?>
 							$size = "medium";
 						?>
 							<li class="individual-featured-work">
-							<figure>
-								<?php echo wp_get_attachment_image($image_1, $size); ?>
-							</figure>
+							<a href="<?php the_permalink(); ?>">
+								<figure>
+									<?php echo wp_get_attachment_image($image_1, $size); ?>
+								</figure>
+							</a>
+
 
 							<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							</li>
