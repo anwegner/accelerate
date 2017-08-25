@@ -25,6 +25,84 @@
 	background: #45ac9d;
 }
 
+/*Homepage case studies*/
+
+.featured-content {
+   width: 90%;
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+.featured-work {
+	overflow:auto;
+}
+
+.featured-work h4 {
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	text-align:center;
+	margin:0 0 40px;
+}
+
+.featured-work ul {
+	margin:0;
+}
+
+.individual-featured-work {
+    float: left;
+    list-style-type: none;
+    margin: 0 3% 0 0;
+    width: 31%;
+}
+
+.individual-featured-work h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.individual-featured-work:nth-child(3n) {
+    margin: 0;
+    width: 31%;
+}
+
+/* Footer Styles */
+
+.social-media-menu li {
+	float:left;
+	margin:0 5px;
+	text-indent:-10000px;
+	list-style-type:none;
+}
+
+/*CASE STUDY ARCHVE*/
+.view-project-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+	font-size: .875em;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+aside.case-study h2{
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 1.5625em/25px;
+}
+
+aside.case-study p{
+	font-size: 16.5px;
+	letter-spacing: -.25px;
+}
+
+
+
 /*BLOG POST STYLES*/
 .blog-post {
 	width: 50%;
@@ -48,4 +126,62 @@
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/*Case Study Styles*/
+
+article.case-study{
+	margin-top: 10px;
+}
+
+aside.case-study{
+	float:left;
+	width: 300px;
+	margin: 0 20px 0 0;
+}
+
+aside.case-study h5{
+	font-size:.875em;
+	line-height: .75em;
+	font-weight: 300;
+	color: #878787;
+	text-transform: none;
+}
+
+aside.case-study h6{
+	font-size:.875em;
+	line-height: .75em;
+	font-weight: 300;
+	color: #2b2b2b;
+}
+
+p.case-study-text{
+	margin-top:20px;
+	font-size: 16.5px;
+	letter-spacing: -.25px;
+}
+
+aside.case-study h2{
+	font-weight: 300;
+	font-size: 25px;
+	line-height: .75em;
+}
+
+span.client-case-study{
+	font-size:.875em;
+	line-height: .75em;
+	font-weight: 300;
+	color: #2b2b2b;
+
+}
+
+div.case-study-images {
+	float:left;
+	width: 590px;
+}
+
+div.case-study-images img {
+	display:block;
+	margin-bottom: 30px;
+	border: 1px solid #dddddd;
 }
