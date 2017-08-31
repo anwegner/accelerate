@@ -185,3 +185,146 @@ div.case-study-images img {
 	margin-bottom: 30px;
 	border: 1px solid #dddddd;
 }
+
+/*Form Fields Styling*/
+.nf-form-fields-required {
+  display: none;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+.field-wrap label {
+  font-family: "Open Sans";
+  font-size: .75em;
+  font-weight: 700;
+  font-color: #2b2b2b;
+}
+input[type="button"], input[type="submit"] {
+    font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+    color: #fff;
+    background: #45ac9d;
+    border: none;
+    padding: 1em 3.75em;
+    text-align: center;
+    float: right;
+}
+
+#nf-form-1-cont {
+	 width: 620px;
+	 margin: auto;
+ }
+
+ /*Narrow Page Template*/
+ .narrow-page-content {
+ 	max-width: 620px;
+ 	margin:auto;
+ }
+
+/*About Us page styles*/
+
+.about-page {
+    background: url("img/taxi-photo-about.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    padding: 8em 0;
+	text-align: center;
+	margin-bottom:3.5em;
+	}
+
+.about-content h3 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+   	text-align: center;
+	margin: auto;
+	width: 47%;
+}
+
+.about-text {
+	width: 49%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.services-content {
+   width: 90%;
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+.services-section {
+	overflow:auto;
+	margin-bottom: 20px;
+}
+
+.services-content h4 {
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	text-align:center;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.services-detail ul {
+	margin:0;
+}
+
+.individual-services {
+    display: block;
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+}
+
+
+.individual-services figure {
+  float: left;
+  width: 200px;
+  margin-right: 110px;
+}
+
+.service-icon:nth-child(odd) {
+	float: left;
+}
+
+.service-icon:nth-child(even) {
+	float:right;
+}
+
+
+.individual-services h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 75px;
+}
+
+.individual-services p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.individual-services:nth-child(5n) {
+    margin: 0;
+    width: 80%;
+}
+
+.abt {
+	display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.abt .button {
+	height: 40px;
+	margin: 20px 0 0 20px;
+}
